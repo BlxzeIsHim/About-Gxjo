@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom right, #8B0000, #FF0000, #000000);
+    background: linear-gradient(to bottom right, #00BFFF, #0000FF, #000000);
     color: #FFFFFF;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -11,15 +11,14 @@ body {
 }
 
 h1 {
-    font-size: 3em; /* Increased font size for better emphasis */
+    font-size: 2.5em;
     text-align: center;
     margin-bottom: 20px;
-    color: #FFD700; /* Gold color for header */
 }
 
 p {
-    font-size: 1.1em; /* Slightly reduced font size for paragraphs */
-    margin-bottom: 20px; /* Increased margin bottom for better separation */
+    font-size: 1.2em;
+    margin-bottom: 15px;
     line-height: 1.6;
 }
 
@@ -38,13 +37,16 @@ p {
     color: #CCCCCC;
 }
 
-/* Additional styles for better contrast and readability */
+/* Adjustments for readability */
+h1 {
+    color: #FFD700; /* Gold color for header */
+}
+
 a {
     color: #FFD700; /* Gold color for links */
 }
 
 a:hover {
-    color: #FFFFFF; /* White color on hover for links */
+    color: #FFFF00; /* Brighter gold color on hover for links */
     text-decoration: underline; /* Underline effect on hover */
 }
-
