@@ -9,6 +9,7 @@ body {
     height: 100vh;
     color: white;
     text-align: center;
+    padding: 20px; /* Added padding for better readability */
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
 
 p {
     font-size: 1.5em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .buttons {
